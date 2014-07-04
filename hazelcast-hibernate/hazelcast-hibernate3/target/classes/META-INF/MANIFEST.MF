@@ -1,0 +1,54 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1404460179471
+Build-Jdk: 1.6.0_45
+Built-By: chamath
+Bundle-Description: Hazelcast In-Memory DataGrid
+Bundle-DocURL: http://www.hazelcast.com/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: hazelcast-hibernate3
+Bundle-SymbolicName: com.hazelcast.hibernate3
+Bundle-Vendor: Hazelcast, Inc.
+Bundle-Version: 3.0.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.hazelcast.hibernate.local;uses:="com.hazelcast.insta
+ nce,com.hazelcast.nio,com.hazelcast.nio.serialization,com.hazelcast.cor
+ e,org.hibernate.cache.access,com.hazelcast.config,org.hibernate.cache,c
+ om.hazelcast.util,com.hazelcast.hibernate";version="3.0.1",com.hazelcas
+ t.hibernate.region;uses:="com.hazelcast.core,org.hibernate.cache,com.ha
+ zelcast.hibernate,com.hazelcast.logging,org.hibernate.cache.access,com.
+ hazelcast.hibernate.access,com.hazelcast.hibernate.local";version="3.0.
+ 1",com.hazelcast.hibernate.access;uses:="org.hibernate.cache.access,com
+ .hazelcast.core,com.hazelcast.hibernate.region,org.hibernate.cache,com.
+ hazelcast.logging,com.hazelcast.hibernate";version="3.0.1",com.hazelcas
+ t.hibernate.distributed;uses:="org.hibernate.cache.access,org.hibernate
+ .cache.entry,com.hazelcast.core,org.hibernate.cache,com.hazelcast.loggi
+ ng,com.hazelcast.hibernate";version="3.0.1",com.hazelcast.hibernate.ins
+ tance;uses:="org.hibernate.engine,org.hibernate,com.hazelcast.core,org.
+ hibernate.cfg,org.hibernate.cache,com.hazelcast.logging,com.hazelcast.h
+ ibernate,com.hazelcast.client,com.hazelcast.client.config,org.hibernate
+ .util,com.hazelcast.config";version="3.0.1",com.hazelcast.hibernate;use
+ s:="org.hibernate.cache.access,org.hibernate.cfg,com.hazelcast.core,com
+ .hazelcast.hibernate.region,org.hibernate.cache,com.hazelcast.hibernate
+ .instance,com.hazelcast.logging,org.hibernate.util,com.hazelcast.hibern
+ ate.distributed,com.hazelcast.hibernate.local,com.hazelcast.config,com.
+ hazelcast.nio,org.hibernate.cache.entry,com.hazelcast.map.merge";versio
+ n="3.0.1"
+Implementation-Title: hazelcast-hibernate3
+Implementation-Vendor: Hazelcast, Inc.
+Implementation-Vendor-Id: com.hazelcast
+Implementation-Version: 3.0.1
+Import-Package: com.hazelcast.client;version="[3.0,4)",com.hazelcast.cli
+ ent.config;version="[3.0,4)";resolution:=optional,com.hazelcast.config;
+ version="[3.0,4)",com.hazelcast.core;version="[3.0,4)",com.hazelcast.in
+ stance;version="[3.0,4)",com.hazelcast.logging;version="[3.0,4)",com.ha
+ zelcast.map.merge;version="[3.0,4)",com.hazelcast.nio;version="[3.0,4)"
+ ,com.hazelcast.nio.serialization;version="[3.0,4)",com.hazelcast.util;v
+ ersion="[3.0,4)",org.apache.log4j;resolution:=optional,org.hibernate,or
+ g.hibernate.cache,org.hibernate.cache.access,org.hibernate.cache.entry,
+ org.hibernate.cfg,org.hibernate.engine,org.hibernate.util,org.slf4j;res
+ olution:=optional
+Specification-Title: hazelcast-hibernate3
+Specification-Vendor: Hazelcast, Inc.
+Specification-Version: 3.0.1
+Tool: Bnd-1.50.0

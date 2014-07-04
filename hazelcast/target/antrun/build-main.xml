@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <copy file="/home/chamath/src/hazalcast/hazelcast-3.0.1/hazelcast/src/main/resources/hazelcast-default.xml" tofile="/home/chamath/src/hazalcast/hazelcast-3.0.1/hazelcast/target/hazelcast.xml"/>
+</target>
+</project>

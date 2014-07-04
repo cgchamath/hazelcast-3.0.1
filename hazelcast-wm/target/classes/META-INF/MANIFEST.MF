@@ -1,0 +1,32 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1404460259926
+Build-Jdk: 1.6.0_45
+Built-By: chamath
+Bundle-Description: Hazelcast In-Memory DataGrid
+Bundle-DocURL: http://www.hazelcast.com/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: hazelcast-wm
+Bundle-SymbolicName: com.hazelcast.wm
+Bundle-Vendor: Hazelcast, Inc.
+Bundle-Version: 3.0.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.hazelcast.web;uses:="com.hazelcast.client,javax.serv
+ let,com.hazelcast.client.config,com.hazelcast.config,com.hazelcast.core
+ ,com.hazelcast.logging,com.hazelcast.nio.serialization,com.hazelcast.in
+ stance,javax.servlet.http";version="3.0.1"
+Implementation-Title: hazelcast-wm
+Implementation-Vendor: Hazelcast, Inc.
+Implementation-Vendor-Id: com.hazelcast
+Implementation-Version: 3.0.1
+Import-Package: com.hazelcast.client;version="[3.0,4)",com.hazelcast.cli
+ ent.config;version="[3.0,4)";resolution:=optional,com.hazelcast.config;
+ version="[3.0,4)",com.hazelcast.core;version="[3.0,4)",com.hazelcast.in
+ stance;version="[3.0,4)",com.hazelcast.logging;version="[3.0,4)",com.ha
+ zelcast.nio.serialization;version="[3.0,4)",javax.servlet;version="[3.0
+ ,4)",javax.servlet.http;version="[3.0,4)",org.apache.log4j;resolution:=
+ optional,org.slf4j;resolution:=optional
+Specification-Title: hazelcast-wm
+Specification-Vendor: Hazelcast, Inc.
+Specification-Version: 3.0.1
+Tool: Bnd-1.50.0

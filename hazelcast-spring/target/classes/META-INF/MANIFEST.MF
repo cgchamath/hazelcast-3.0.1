@@ -1,0 +1,58 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1404460398341
+Build-Jdk: 1.6.0_45
+Built-By: chamath
+Bundle-Description: Hazelcast In-Memory DataGrid
+Bundle-DocURL: http://www.hazelcast.com/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: hazelcast-spring
+Bundle-SymbolicName: com.hazelcast.spring
+Bundle-Vendor: Hazelcast, Inc.
+Bundle-Version: 3.0.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.hazelcast.spring;uses:="org.springframework.beans.fa
+ ctory.support,com.hazelcast.config,org.springframework.beans.factory.xm
+ l,org.springframework.beans.factory.config,org.w3c.dom,com.hazelcast.cl
+ ient,com.hazelcast.client.config,com.hazelcast.spring.context,org.sprin
+ gframework.util,com.hazelcast.instance,com.hazelcast.spring.hibernate,c
+ om.hazelcast.core";version="3.0.1",com.hazelcast.spring.cache;uses:="co
+ m.hazelcast.nio,com.hazelcast.nio.serialization,org.springframework.cac
+ he.support,com.hazelcast.core,org.springframework.cache,org.springframe
+ work.beans.factory";version="3.0.1",com.hazelcast.spring.context;uses:=
+ "com.hazelcast.executor,com.hazelcast.core,org.springframework.beans,or
+ g.springframework.context,org.springframework.beans.factory.config";ver
+ sion="3.0.1",com.hazelcast.spring.hibernate;uses:="org.springframework.
+ beans.factory.support,org.springframework.beans.factory.xml,org.w3c.dom
+ ,com.hazelcast.hibernate";version="3.0.1",com.hazelcast.spring.jpa;uses
+ :="com.hazelcast.core,org.springframework.data.repository";version="3.0
+ .1",com.hazelcast.spring.mongodb;uses:="com.mongodb,org.springframework
+ .data.mongodb.core,com.hazelcast.core,org.bson,org.springframework.data
+ .mongodb.core.convert,org.bson.types";version="3.0.1"
+Implementation-Title: hazelcast-spring
+Implementation-Vendor: Hazelcast, Inc.
+Implementation-Vendor-Id: com.hazelcast
+Implementation-Version: 3.0.1
+Import-Package: com.hazelcast.client;resolution:=optional;version="[3.0,
+ 4)",com.hazelcast.client.config;version="[3.0,4)";resolution:=optional,
+ com.hazelcast.config;version="[3.0,4)",com.hazelcast.core;version="[3.0
+ ,4)",com.hazelcast.executor;version="[3.0,4)",com.hazelcast.hibernate;r
+ esolution:=optional;version="[3.0,4)",com.hazelcast.instance;version="[
+ 3.0,4)",com.hazelcast.nio;version="[3.0,4)",com.hazelcast.nio.serializa
+ tion;version="[3.0,4)",com.mongodb;resolution:=optional,org.apache.log4
+ j;resolution:=optional,org.bson;resolution:=optional,org.bson.types;res
+ olution:=optional,org.slf4j;resolution:=optional,org.springframework.be
+ ans;version="[3.1,4)",org.springframework.beans.factory;version="[3.1,4
+ )",org.springframework.beans.factory.config;version="[3.1,4)",org.sprin
+ gframework.beans.factory.support;version="[3.1,4)",org.springframework.
+ beans.factory.xml;version="[3.1,4)",org.springframework.cache;version="
+ [3.1,4)",org.springframework.cache.support;version="[3.1,4)",org.spring
+ framework.context;version="[3.1,4)",org.springframework.data.mongodb.co
+ re;version="[1.0,2)";resolution:=optional,org.springframework.data.mong
+ odb.core.convert;version="[1.0,2)";resolution:=optional,org.springframe
+ work.data.repository;version="[1.2,2)";resolution:=optional,org.springf
+ ramework.util;version="[3.1,4)",org.w3c.dom
+Specification-Title: hazelcast-spring
+Specification-Vendor: Hazelcast, Inc.
+Specification-Version: 3.0.1
+Tool: Bnd-1.50.0

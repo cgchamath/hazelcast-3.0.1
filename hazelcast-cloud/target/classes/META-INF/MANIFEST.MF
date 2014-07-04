@@ -1,0 +1,36 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1404460398839
+Build-Jdk: 1.6.0_45
+Built-By: chamath
+Bundle-Description: Hazelcast In-Memory DataGrid
+Bundle-DocURL: http://www.hazelcast.com/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: hazelcast-cloud
+Bundle-SymbolicName: com.hazelcast.cloud
+Bundle-Vendor: Hazelcast, Inc.
+Bundle-Version: 3.0.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.hazelcast.aws.security;uses:="com.hazelcast.aws.impl
+ ,com.hazelcast.aws.utility,javax.crypto.spec,javax.crypto,com.hazelcast
+ .util";version="3.0.1",com.hazelcast.cluster;uses:="com.hazelcast.confi
+ g,com.hazelcast.aws,com.hazelcast.logging,com.hazelcast.instance,com.ha
+ zelcast.util";version="3.0.1",com.hazelcast.aws.impl;uses:="com.hazelca
+ st.aws.security,com.hazelcast.config,com.hazelcast.aws.utility";version
+ ="3.0.1",com.hazelcast.aws;uses:="com.hazelcast.config,com.hazelcast.aw
+ s.impl";version="3.0.1",com.hazelcast.aws.utility;uses:="com.hazelcast.
+ core,com.hazelcast.config,org.w3c.dom,com.hazelcast.logging,javax.xml.p
+ arsers";version="3.0.1"
+Implementation-Title: hazelcast-cloud
+Implementation-Vendor: Hazelcast, Inc.
+Implementation-Vendor-Id: com.hazelcast
+Implementation-Version: 3.0.1
+Import-Package: com.hazelcast.config;version="[3.0,4)",com.hazelcast.cor
+ e;version="[3.0,4)",com.hazelcast.instance;version="[3.0,4)",com.hazelc
+ ast.logging;version="[3.0,4)",com.hazelcast.util;version="[3.0,4)",java
+ x.crypto,javax.crypto.spec,javax.xml.parsers,org.apache.log4j;resolutio
+ n:=optional,org.slf4j;resolution:=optional,org.w3c.dom
+Specification-Title: hazelcast-cloud
+Specification-Vendor: Hazelcast, Inc.
+Specification-Version: 3.0.1
+Tool: Bnd-1.50.0
